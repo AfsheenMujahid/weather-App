@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     }
+    body{
+    background-image:url("image/bg.jpg");
+    background-size: cover;
+   }    
+.navbar-expand {
+   
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+}
+        .navbar-nav {
+          flex-direction: row;
+        }
+          .dropdown-menu {
+            position: absolute;
+          }
+
+          .nav-link {
+            padding-right:  20px;
+            padding-left:20px  ;
+          }
+        
+
+        .navbar-nav-scroll {
+          overflow: visible;
+        }
+
+        .navbar-collapse {
+          display: flex  ;  
+          flex-basis: auto;
+        }
+
+        .navbar-toggler {
+          display: none;
+        }
+
+        .offcanvas {
+           position: static;
+          z-index: auto;
+          flex-grow: 1;
+          width: auto  ;
+          height: auto  ;
+          visibility: visible ;
+          background-color: transparent  ;
+          border: 0 ;
+          transform: none  ;
+          box-shadow:none;
+            transition:none;
+ 
+          .offcanvas-header {
+            display: none;
+          }
+
+          .offcanvas-body {
+            display: flex;
+            flex-grow: 0;
+            padding: 0;
+            overflow-y: visible;
+          }
+        }
+       
+    .grid-box{
+        display: flex;
+        max-width: 950px;
+        height: 650px;
+        margin: 0 auto;
+         border-radius: 15px;   
+        margin-top: 45px; 
+        margin-bottom: 45px; 
+    }
+    .left{
+        background-image:url("image/sky1.jpg");
+        background-size: cover;
+        width: 60%;
+        border: 2px solid transparent;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+     }
+    
+    .right{
+         width: 40%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+          background-color: rgb(7, 7, 68);
+    }
+    .cloud{
+        margin-left: 70px;
+        display: flex;
+    }
+    .tue{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    .degree{
+        color: white;
+        font-size: 30px;
+        display: flex;
+        margin-left: 37%;
+        margin-top: 20%;
+    }
+    .cloud1{
+        margin-top: 30px;
+    }
+    .cloud h2{
+        color: white;
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    .container-fluid{
+        margin-top: 50px;
+        margin-left: 30px;
+        display: flex;
+        font-size: 20px;
+        font-family: monospace;
+    }
+    .container-fluid h1{
+    color: white;
+    }
+    .bi{
+        margin-left: 50px;
+        color: rgb(255, 255, 255);
+        stroke-width: 50px;
+     }
+    .form-control{
+        border-radius: 10px;
+        border: .1px solid rgb(218, 206, 206);
+        background-color: white;
+        padding: 10px;
+        margin-left: 2px;
+    }
+    .container {
+        max-width: 1200px; /* Set a maximum width for the container */
+         /* Center the container */
+        
+        margin-left: 50px; /* Center the container */
+       }
+       .karachi{
+        font-size: 20px;
+        color: white;
+        margin-left: 30%;
+        margin-top: 10%;
+       }
+       .karachi h2{
+        margin-left: 130px;
+       }
+       .karachi p{
+        font-size: 120px;
+    
+       }
+       .karachi p sup{
+        font-size: 50px;
+       }
+       .row{
+        display: flex;
+          line-height: 1;
+          margin-top: 100px;
+       }
+        
+      .col{
+         border: 1px solid transparent;
+           display: flex;
+        text-align: center;
+        background-color: #6e8ba8;
+         gap: 10px;
+     
+      }
+      .col1{
+            padding: 10px;
+      }
+      .col2{
+        padding: 10px;
+
+      }
+      .col3{
+        padding: 10px;
+
+      }
+
+      .col1:hover{
+        background-color:rgb(247, 238, 238);
+        opacity:.6;
+         cursor: pointer;
+        color: #000000;
+      }
+      .col2:hover{
+        background-color: white;
+        opacity:.6;
+        cursor: pointer;
+        color: #000000;
+      }
+      .col3:hover{
+        background-color: white;
+        opacity:.6;
+        cursor: pointer;
+        color: #000000;
+      }
+      .small{
+        font-size: 14px;
+      }
+      .h2{
+        font-size: 40px;
+      }
+  sup{
+    font-size: 20px;
+    margin: 0;
+    padding: 1px;
+  }
+      /* Style for the first column */
+      .col:nth-child(1) {
+        background-color:transparent; /* Change the background color */
+        color: #ffffff; /* Change the text color */
+      }
+  
+      /* Style for the second column */
+      .col:nth-child(2) {
+        background-color:transparent;
+        color: #ffffff;
+      }
+  
+      /* Style for the third column */
+      .col:nth-child(3) {
+        background-color: transparent;
+        color: #ffffff;
+      }
+
+      /* Custom CSS for Bootstrap Progress Bars
+.progress {
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.progress-bar {
+    text-align: center;
+    line-height: 25px;
+    color: #fff;
+}
+
+/* Optional: Add background color and rounded corners */
+/* .progress-bar {
+    background-color: #007bff; /* Bootstrap primary color */
+    /* border-radius: 5px;
+} */ 
+
+.rainy{
+font-size: 30px;
+margin-left: 37%;
+color: white;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cloudy{
+  margin-top: 40px;
+  margin-left: 80px;
+}
